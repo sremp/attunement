@@ -1,0 +1,30 @@
+:q
+:q
+:q
+:q
+:t B.Builder.toLazyByteString
+:t B.Builder.toLazyByteString
+:t B.Lazy.toLazyByteString
+:t B.Builder.floatLE
+:t B.Lazy.floatLE
+t: B.Builder.floatLE
+t: B.Lazy.floatLE
+:t B.Builder.writeFile
+import qualified Data.ByteString.Lazy as B.Lazy
+import qualified Data.ByteString.Builder as B.Builder
+:q
+:t B.writeFile
+import qualified Data.ByteString.Builder as B
+import qualified Data.ByteString.Lazy as B
+:q
+import qualified Data.ByteString.Lazy as B.Lazy
+:q
+quit
+:q
+:r
+:quit
+putStrLn "Sup fucker"
+1 + 1
+q()
+exit
+quit
